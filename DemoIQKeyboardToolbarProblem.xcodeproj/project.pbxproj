@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDA7B551E28E9E700DAF91E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA7B541E28E9E700DAF91E /* main.m */; };
+		FFDA7B581E28E9E700DAF91E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA7B571E28E9E700DAF91E /* AppDelegate.m */; };
+		FFDA7B5B1E28E9E700DAF91E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA7B5A1E28E9E700DAF91E /* ViewController.m */; };
+		FFDA7B5E1E28E9E700DAF91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDA7B5C1E28E9E700DAF91E /* Main.storyboard */; };
+		FFDA7B601E28E9E700DAF91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDA7B5F1E28E9E700DAF91E /* Assets.xcassets */; };
+		FFDA7B631E28E9E700DAF91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDA7B611E28E9E700DAF91E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFDA7B501E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIQKeyboardToolbarProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDA7B541E28E9E700DAF91E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFDA7B561E28E9E700DAF91E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFDA7B571E28E9E700DAF91E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFDA7B591E28E9E700DAF91E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFDA7B5A1E28E9E700DAF91E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFDA7B5D1E28E9E700DAF91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDA7B5F1E28E9E700DAF91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDA7B621E28E9E700DAF91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDA7B641E28E9E700DAF91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDA7B4D1E28E9E700DAF91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDA7B471E28E9E700DAF91E = {
+			isa = PBXGroup;
+			children = (
+				FFDA7B521E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem */,
+				FFDA7B511E28E9E700DAF91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDA7B511E28E9E700DAF91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA7B501E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDA7B521E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA7B561E28E9E700DAF91E /* AppDelegate.h */,
+				FFDA7B571E28E9E700DAF91E /* AppDelegate.m */,
+				FFDA7B591E28E9E700DAF91E /* ViewController.h */,
+				FFDA7B5A1E28E9E700DAF91E /* ViewController.m */,
+				FFDA7B5C1E28E9E700DAF91E /* Main.storyboard */,
+				FFDA7B5F1E28E9E700DAF91E /* Assets.xcassets */,
+				FFDA7B611E28E9E700DAF91E /* LaunchScreen.storyboard */,
+				FFDA7B641E28E9E700DAF91E /* Info.plist */,
+				FFDA7B531E28E9E700DAF91E /* Supporting Files */,
+			);
+			path = DemoIQKeyboardToolbarProblem;
+			sourceTree = "<group>";
+		};
+		FFDA7B531E28E9E700DAF91E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA7B541E28E9E700DAF91E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDA7B4F1E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDA7B671E28E9E700DAF91E /* Build configuration list for PBXNativeTarget "DemoIQKeyboardToolbarProblem" */;
+			buildPhases = (
+				FFDA7B4C1E28E9E700DAF91E /* Sources */,
+				FFDA7B4D1E28E9E700DAF91E /* Frameworks */,
+				FFDA7B4E1E28E9E700DAF91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIQKeyboardToolbarProblem;
+			productName = DemoIQKeyboardToolbarProblem;
+			productReference = FFDA7B501E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDA7B481E28E9E700DAF91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = csooi;
+				TargetAttributes = {
+					FFDA7B4F1E28E9E700DAF91E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFDA7B4B1E28E9E700DAF91E /* Build configuration list for PBXProject "DemoIQKeyboardToolbarProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDA7B471E28E9E700DAF91E;
+			productRefGroup = FFDA7B511E28E9E700DAF91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDA7B4F1E28E9E700DAF91E /* DemoIQKeyboardToolbarProblem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDA7B4E1E28E9E700DAF91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDA7B631E28E9E700DAF91E /* LaunchScreen.storyboard in Resources */,
+				FFDA7B601E28E9E700DAF91E /* Assets.xcassets in Resources */,
+				FFDA7B5E1E28E9E700DAF91E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDA7B4C1E28E9E700DAF91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDA7B5B1E28E9E700DAF91E /* ViewController.m in Sources */,
+				FFDA7B581E28E9E700DAF91E /* AppDelegate.m in Sources */,
+				FFDA7B551E28E9E700DAF91E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFDA7B5C1E28E9E700DAF91E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDA7B5D1E28E9E700DAF91E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDA7B611E28E9E700DAF91E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDA7B621E28E9E700DAF91E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDA7B651E28E9E700DAF91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDA7B661E28E9E700DAF91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDA7B681E28E9E700DAF91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoIQKeyboardToolbarProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressoft.DemoIQKeyboardToolbarProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFDA7B691E28E9E700DAF91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoIQKeyboardToolbarProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressoft.DemoIQKeyboardToolbarProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDA7B4B1E28E9E700DAF91E /* Build configuration list for PBXProject "DemoIQKeyboardToolbarProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDA7B651E28E9E700DAF91E /* Debug */,
+				FFDA7B661E28E9E700DAF91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDA7B671E28E9E700DAF91E /* Build configuration list for PBXNativeTarget "DemoIQKeyboardToolbarProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDA7B681E28E9E700DAF91E /* Debug */,
+				FFDA7B691E28E9E700DAF91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDA7B481E28E9E700DAF91E /* Project object */;
+}
