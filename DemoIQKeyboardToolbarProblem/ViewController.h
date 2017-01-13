@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum themeColor
+{
+    ThemeColorBlue=0,
+    ThemeColorPink=1,
+    ThemeColorGreen=2
+} ThemeColor;
+
 @interface ViewController : UIViewController
 
 
